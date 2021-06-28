@@ -1,0 +1,31 @@
+#todo-item-container {
+  display: flex;
+  padding: 0.3rem 0rem;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  align-items: center;
+}
+
+#todo-text {
+  flex-grow: 1;
+}
+
+.inactive {
+  text-decoration: line-through solid black;
+  color: grey;
+}
+
+input {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #d3d3d3; /* Green */
+  border: none;
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

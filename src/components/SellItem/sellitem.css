@@ -1,0 +1,68 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+h3 {
+  margin-top: 0;
+  color: coral;
+}
+
+.sell-item {
+  width: fit-content;
+  padding: 7px;
+  margin: 0 10px 0 10px;
+  border: 2px solid #bfbfbf;
+}
+
+.photo, .info {
+  padding: 7px;
+  border: 2px solid #bfbfbf85;
+}
+
+.price {
+  font-size:large;
+}
+
+.discount {
+  float:right;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 2.5px;
+  background-color: #d02727;
+  color: white;
+}
+
+.normal {
+  margin-top: 0;
+  font-size:small;
+}
+
+.original {
+  text-decoration: line-through;
+}
+
+.stars {
+  text-align: center;
+}
+
+.rating-group {
+  display: inline-flex;
+}
+
+.rating-label {
+  cursor: pointer;
+  padding: 0 0.1em;
+  font-size: 1.8rem;
+}
+
+.rating-label--half {
+  padding-right: 0;
+  margin-right: -0.6em;
+  z-index: 2;
+}
+
+.rating-icon--star {
+  color: orange;
+}
+
+.rating-icon--none {
+  color: #ddd;
+}

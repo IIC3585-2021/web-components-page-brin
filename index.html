@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/lit-element@2.5.1/lit-element.min.js"></script>
+
+  </head>
+  <body>
+    <script type="module" src="script.js"></script>
+
+    <h1> Web Components Sell Item: </h1>
+
+    <sell-item name='Comida China' photo="https://lorempixel.com/200/200/food/1/" original="175990" discount="55" stars="2.5"></sell-item>
+
+    <h1> Lit element Sell Item: </h1>
+
+    <lit-sell-item name='Vegetales' photo="https://lorempixel.com/200/200/food/5/" original="7990" discount="25" stars="3.5"></lit-sell-item>
+   
+
+    <h1> Web Components ToDo Lists: </h1>
+    
+    <todo-list title="Custom To-Do List" prompt="Add a new task to the list!" items="['some task', 'some another task']"></todo-list>
+    <todo-list title="Another To-Do list!" prompt="Add new task:" items="[]"></todo-list>
+    
+    <h1> Lit Element ToDo Lists: </h1>
+
+    <lit-todo-list title="LIT To-Do List" prompt="Add a new task to the LIT list!" items='["some LIT task", "another LIT task"]'></lit-todo-list>
+    
+  </body>
+</html>
